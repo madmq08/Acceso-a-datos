@@ -15,7 +15,7 @@ public class Fichero1 {
     //Verificar si el archivo existe
     if (archivo.exists()) {
         // Si el archivo existe se muestra un mensaje en pantalla de que existe
-        // mostrando la ruta completa especificada
+        // mostrando las ruta completa especificada
         System.out.println("El archivo existe en la ruta: " + archivo.getAbsolutePath());
     } else  {
         // Si el archivo NO existe se muestra un mensaje de que no existe

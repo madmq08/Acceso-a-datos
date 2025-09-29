@@ -14,7 +14,7 @@ public class Fichero2 {
                 System.out.println("La ruta presenta un directorio en: " +  ruta.getAbsolutePath());
             } else if(ruta.isFile()) { //verifica si la ruta especificada es un archivo
                 // Si en la ruta el ultimo elemento es un archivo se muestra un menesaje en pantalla
-                // de que la ruta especificada es un archivo
+                // de que las ruta especificada es un archivo
                 System.out.println("La ruta presenta un archivo en: " + ruta.getAbsolutePath());
             }
                 
